@@ -28,7 +28,7 @@ h1 {
   padding: 50px;
 }
 
-#sous-titre-h2 {
+#continent-title {
   background-image: linear-gradient(to right, #fd807c, #5294b7, #fd807c);
   background-clip: text;
   color: transparent;
@@ -40,7 +40,7 @@ h1 {
   -webkit-text-stroke: 1.3px transparent;
 }
 
-#sous-titre-h3 {
+#bird-name {
   color: #f2637e;
   font-family: "Birthstone", cursive;
   font-weight: 500;
