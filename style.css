@@ -1,0 +1,63 @@
+:root {
+  --background-color: #011526;
+  --quotation-color: #faffe8;
+  --h2-color: linear-gradient(to right, #fd807c, #5294b7, #fd807c);
+  --h3-color: #f2637e;
+}
+
+body {
+  background-color: var(--background-color);
+  color: white;
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+header h1 {
+  text-decoration: underline;
+  color: #feb99c;
+  font-size: 62.4px;
+  font-family: "Birthstone", cursive;
+}
+
+h2 {
+  background-image: linear-gradient(to right, #fd807c, #5294b7, #fd807c);
+  background-clip: text;
+  color: transparent;
+  font-weight: 400;
+  font-size: 46.4px;
+  text-decoration-line: underline overline;
+  text-decoration-thickness: from-font;
+  -webkit-text-stroke: 1.3px transparent
+}
+
+h3 {
+  color:var(--h3-color);
+  font-size: 32.2px;
+}
+
+h2, h3 {
+   font-family: "Birthstone", cursive;
+}
+
+.container-sunset {
+  position: relative;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-sunset img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+header blockquote {
+  font-family: "Babylonica", cursive;
+  font-size: 39.5px;
+  color: var(--quotation-color);
+  text-align: center;
+}
